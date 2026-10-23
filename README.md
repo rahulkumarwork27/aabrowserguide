@@ -70,7 +70,3 @@ For browser information, installation guidance, compatibility resources, and upd
 
 **AA Browser Guide** — Information and resources for Android Auto browser users. 🚘
 """
-
-path = Path("/mnt/data/README.md")
-path.write_text(content, encoding="utf-8")
-print(f"Created: {path} ({path.stat().st_size} bytes)")
